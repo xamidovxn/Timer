@@ -5,27 +5,37 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style.css">
    <title>Timer</title>
 </head>
 
 <body>
 
-   <form class="form" action="#">
-      <input class="hour" type="number" placeholder="Soat">
-      <input class="minute" type="number" placeholder="Daqiqa">
-      <input class="second" atype="number" placeholder="Soniya">
-      <button class="btn" type="submit">START</button>
-      <button class="btn_refresh">REFRESH</button>
-   </form>
+   <div class="box">
+      <form class="form" action="#">
+         <input class="hour" type="number" placeholder="Soat">
+         <input class="minute" type="number" placeholder="Daqiqa">
+         <input class="second" type="number" placeholder="Soniya">
+         <div class="div_btn">
+            <button class="btn" type="submit">START</button>
+            <button class="btn_refresh">RESTART</button>
+            <button class="btn_pause">PAUSE</button>
+            <button class="btn_continue">CONTINUE</button>
 
-   <div style="display: flex;">
-      <h2 class="soat">0</h2>
-      <h2>:</h2>
-      <h2 class="daqiqa">0</h2>
-      <h2>:</h2>
-      <h2 class="soniya">0</h2>
-  </div>
+         </div>
+      </form>
 
+      <div class="box__second" style="display: flex;">
+         <h2 class="soat">0</h2>
+         <h2>:</h2>
+         <h2 class="daqiqa">0</h2>
+         <h2>:</h2>
+         <h2 class="soniya">0</h2>
+      </div>
+
+
+
+   </div>
 
 
 
